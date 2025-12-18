@@ -2,14 +2,14 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 /*
-	* Create By Naze
-	* Follow https://github.com/nazedev
-	* Whatsapp : https://whatsapp.com/channel/0029VaWOkNm7DAWtkvkJBK43
+	* Create By ions
+	* Follow https://github.com/ionscloud
+	* Whatsapp : https://whatsapp.com/channel/0029Vb6MTyn8fewo1bpjtX1V
 */
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6281805775757'] //['628','628'] 2 owner atau lebih
+global.owner = ['6281805775767'] //['628','628'] 2 owner atau lebih
 global.author = 'ionscloud'
 global.botname = 'Palinga Bot'
 global.packname = 'Bot WhatsApp'
@@ -36,7 +36,7 @@ global.fake = {
 }
 
 global.my = {
-	yt: 'https://youtube.com/c/Nazedev',
+	yt: 'https://youtube.com/@ioncloud5147',
 	gh: 'https://github.com/ionscloud',
 	gc: 'https://whatsapp.com/channel/0029Vb6MTyn8fewo1bpjtX1V',
 	ch: '120363422670890291@g.us',
@@ -90,4 +90,5 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+
 
